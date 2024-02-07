@@ -1,5 +1,5 @@
 # ZK
-## 1. Zk-book(https://www.rareskills.io/zk-book)
+## 1. Zk-book(Source: https://www.rareskills.io/zk-book)
 ### Chapter-1 : Set Theory
 https://www.rareskills.io/post/set-theory
 
@@ -69,7 +69,7 @@ The product of groups is also a group. We won't go into detail about that right 
 
 Let's say we take the product of two non-equal groups G and G' and map a subset of it to G''. That would be G × G' → G''. This is just the same set-theoretic definition of a function we have been using all along.
 
-### Why doe sgroup theory matter?
+### Why does group theory matter?
 To understand this :
 ##### Elliptic curve points under addition modulo p are a cyclic finite group and integers under addition are homomorphic to this group. 
 
