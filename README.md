@@ -73,3 +73,12 @@ Let's say we take the product of two non-equal groups G and G' and map a subset 
 To understand this :
 ##### Elliptic curve points under addition modulo p are a cyclic finite group and integers under addition are homomorphic to this group. 
 
+### Chapter-3: Rings and Fields
+##### Ring:
+A Ring is a set with two binary operators such that
+* under the first binary operator, the set is a abelian group
+* under the second binary operator, the set is a monoid
+* the second binary operator distributes over the first
+examples:
+* Trivial Ring: {0} under addition and multiplication is a trivial ring.
+* The set of all polynomials is a ring
