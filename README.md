@@ -74,6 +74,8 @@ To understand this :
 ##### Elliptic curve points under addition modulo p are a cyclic finite group and integers under addition are homomorphic to this group. 
 
 ### Chapter-3: Rings and Fields
+https://www.rareskills.io/post/rings-and-fields
+
 ##### Ring:
 A Ring is a set with two binary operators such that
 * under the first binary operator, the set is a abelian group
