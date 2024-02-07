@@ -46,19 +46,30 @@ examples:
 * Addition modulo a prime number is a group
 * Multiplication modulo a prime number is not a group
 * A fixed based raised to integer powers under multiplication is a group
-### Finite Groups:
+#### Finite Groups:
 A finite group has a finite number of elements in it.
 ###### The set of all integers under addition is not finite, but addition of integers modulo a prime number is a finite group.
 Use Cayley Table.
-### Cyclic Groups:
+#### Cyclic Groups:
 A cyclic group is a group that has an element such that every element in the group can be “generated” by applying the binary operator repeatedly to that element, or to it’s inverse.
 generator is usually denoted with g or G.
 ###### If a group is cyclic, then it is abelian.
 ###### The identity element of a group is unique.
-### Group Homomorphisms:
+#### Group Homomorphisms:
 Let A be a group with binary operator □ and B be a group with binary operator △.
 
-Group A is homomorphic to group B if there exists a transformation φ where φ maps elements from A to B, and for all a, a’ in A, φ(a □ a’) = φ(a) △ φ(a’).
+Group A is homomorphic to group B if there exists a transformation φ where φ maps elements from A to B, and for all a, a’ in A, 
+
+φ(a □ a’) = φ(a) △ φ(a’).
 
 This relationship also happens to be an isomorphism because it works in both directions, but for the purpose of zero knowledge proofs, we are more interested in homomorphisms than isomorphisms.
 If our transformation φ is cryptographically hard to invert, then we have homomorphic encryption. That is, we can apply binary operators to encrypted data and “do valid math” but not know what the original values were
+#### Product of Groups:
+The product of groups is also a group. We won't go into detail about that right now, but when you deal with bilinear parings, you are going to see notation like G × G → G, and now you can understand what that means.
+
+Let's say we take the product of two non-equal groups G and G' and map a subset of it to G''. That would be G × G' → G''. This is just the same set-theoretic definition of a function we have been using all along.
+
+### Why doe sgroup theory matter?
+To understand this :
+##### Elliptic curve points under addition modulo p are a cyclic finite group and integers under addition are homomorphic to this group. 
+
