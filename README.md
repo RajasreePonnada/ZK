@@ -82,3 +82,27 @@ A Ring is a set with two binary operators such that
 examples:
 * Trivial Ring: {0} under addition and multiplication is a trivial ring.
 * The set of all polynomials is a ring
+* Square matrices of real numbers under addition and multiplication is a ring
+##### Field:
+A field is a set with two binary operators such that
+* under the first binary operator, the set is an abelian group
+* under the second binary operator, excluding the zero element, the set is an abelian group
+examples:
+* There is no trivial field
+* Addition and multiplication modulo 2: the smallest possible field {0,1}-GF(2)
+* The set of all integers under addition and multiplication is not a field
+* The set of all rational numbers is a field
+* The set of all real numbers is a field
+* Integers modulo a prime number is a field under addition and multiplication
+it can be calculates using python using follows:
+p = 11 # must be prime
+a = 6 # pick any element from [1,p], note that zero is excluded
+a_inv = pow(a, -1, p)
+assert (a * a_inv) % p == 1
+basically Modular multiplicative inverses.
+Finite Fields:
+Finite fields are used a lot in cryptography. One major advantage of finite fields is that we can do arithmetic on rational numbers of arbitrary precision.
+### Chapter-4: Elliptic Curve Point Addition
+###### Set theoretic definition of elliptic curves
+Elliptic curves are a family of curves which have the formula
+y^2 = x^3 + ax + b
