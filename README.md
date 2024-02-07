@@ -105,6 +105,8 @@ basically Modular multiplicative inverses.
 Finite Fields:
 Finite fields are used a lot in cryptography. One major advantage of finite fields is that we can do arithmetic on rational numbers of arbitrary precision.
 ### Chapter-4: Elliptic Curve Point Addition
+https://www.rareskills.io/post/elliptic-curve-addition
+
 ###### Set theoretic definition of elliptic curves
 Elliptic curves are a family of curves which have the formula
 y^2 = x^3 + ax + b
