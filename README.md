@@ -110,3 +110,20 @@ https://www.rareskills.io/post/elliptic-curve-addition
 ###### Set theoretic definition of elliptic curves
 Elliptic curves are a family of curves which have the formula
 y^2 = x^3 + ax + b
+
+Rather than thinking of elliptic curves as a plot on a graph, think of them as an infinite set of points. Points are in the set if and only if they satisfy the elliptic curve equation.
+* Elliptic Curves form an abelian group under addition
+* the point at infinity
+* If a straight line crosses an elliptic curve at exactly two points, then it must be perfectly vertical.
+* The inverse of an elliptic curve point is the negative of the y value of the pair.
+* The fact that elliptic curve points are a group under our “2 points always result in a 3rd except for the identity” makes it’s abelian nature obvious.
+* When we pick two points, there is only one other third point. You can’t get four intersections in an elliptic curve. Since we only have one possible solution, then it is clear that A ⊕ B = B ⊕ A.
+  image=href.https://static.wixstatic.com/media/935a00_cffa7b60afd8486f8cc2f97de8b07f17~mv2.png/v1/fill/w_1110,h_609,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/935a00_cffa7b60afd8486f8cc2f97de8b07f17~mv2.png
+###### Point Addition:
+Just define point addition to be the third point flipped over the y axis.
+###### Point Multiplication:
+
+### Chapter-5: Elliptic Curves over Finite Field
+https://www.rareskills.io/post/elliptic-curves-finite-fields
+
+##### bn128 is used in ethereum precompilers
