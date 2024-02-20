@@ -126,4 +126,7 @@ Just define point addition to be the third point flipped over the y axis.
 ### Chapter-5: Elliptic Curves over Finite Field
 https://www.rareskills.io/post/elliptic-curves-finite-fields
 
-##### bn128 is used in ethereum precompilers
+##### bn128 is used in ethereum precompiler
+
+In the application of cryptography, p needs to be sufficiently large to prevent brute force guessing. In practice, it is over 200 bits.
+To genearte the modular square roots we use a black box for now called as Tonelli Sharks's Algorithm
